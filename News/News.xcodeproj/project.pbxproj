@@ -8,18 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		12CDFEB12A821E940076B312 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CDFEB02A821E940076B312 /* AppDelegate.swift */; };
-		12CDFEB52A821E940076B312 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CDFEB42A821E940076B312 /* ViewController.swift */; };
+		12CDFEB52A821E940076B312 /* GeneralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CDFEB42A821E940076B312 /* GeneralViewController.swift */; };
 		12CDFEBA2A821E960076B312 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12CDFEB92A821E960076B312 /* Assets.xcassets */; };
 		12CDFEBD2A821E960076B312 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12CDFEBB2A821E960076B312 /* LaunchScreen.storyboard */; };
+		12CDFEC52A8221E20076B312 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CDFEC42A8221E20076B312 /* TabBarController.swift */; };
+		12CDFEC72A82233B0076B312 /* BusinessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CDFEC62A82233B0076B312 /* BusinessViewController.swift */; };
+		12CDFEC92A8223560076B312 /* TechnologyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CDFEC82A8223560076B312 /* TechnologyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		12CDFEAD2A821E940076B312 /* News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = News.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12CDFEB02A821E940076B312 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		12CDFEB42A821E940076B312 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		12CDFEB42A821E940076B312 /* GeneralViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralViewController.swift; sourceTree = "<group>"; };
 		12CDFEB92A821E960076B312 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12CDFEBC2A821E960076B312 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12CDFEBE2A821E960076B312 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12CDFEC42A8221E20076B312 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		12CDFEC62A82233B0076B312 /* BusinessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessViewController.swift; sourceTree = "<group>"; };
+		12CDFEC82A8223560076B312 /* TechnologyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechnologyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				12CDFEB02A821E940076B312 /* AppDelegate.swift */,
-				12CDFEB42A821E940076B312 /* ViewController.swift */,
+				12CDFEC42A8221E20076B312 /* TabBarController.swift */,
+				12CDFEB42A821E940076B312 /* GeneralViewController.swift */,
+				12CDFEC62A82233B0076B312 /* BusinessViewController.swift */,
+				12CDFEC82A8223560076B312 /* TechnologyViewController.swift */,
 				12CDFEB92A821E960076B312 /* Assets.xcassets */,
 				12CDFEBB2A821E960076B312 /* LaunchScreen.storyboard */,
 				12CDFEBE2A821E960076B312 /* Info.plist */,
@@ -131,7 +140,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12CDFEB52A821E940076B312 /* ViewController.swift in Sources */,
+				12CDFEC92A8223560076B312 /* TechnologyViewController.swift in Sources */,
+				12CDFEC52A8221E20076B312 /* TabBarController.swift in Sources */,
+				12CDFEB52A821E940076B312 /* GeneralViewController.swift in Sources */,
+				12CDFEC72A82233B0076B312 /* BusinessViewController.swift in Sources */,
 				12CDFEB12A821E940076B312 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
